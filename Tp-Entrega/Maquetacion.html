@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica clase</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5d006c;
+        }
+        header {
+            background-color:  #5d006c;
+            color: rgb(240, 165, 255);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #be7fbb;
+            color: #f5cdff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #030303;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffd6fc;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 40px;
+            text-align: left;
+            padding: 20px;
+        }
+        h2 {
+            color: #ef93ea;
+            font-size: 24px;
+        }
+        p {
+            color: #fad7ff;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #600e71;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Princesa Grumosa</h1>
+        <img src="princesagrumosa.jpg" width="110" height="110" style="border: 3px solid rgba(83, 4, 83, 0.4)">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Apariencia">Apariencia</a></li>
+            <li><a href="#personalidad">Personalidad</a></li>
+            <li><a href="#Curiosidades">Curiosidades</a></li>
+            <li><a href="#Aportes">Aportes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <table style="width:100%">
+            <tr>
+                <td style="padding: 20px; border-radius: 20px; background-color: #300328;">
+                    <section id="Apariencia">
+                        <h2 style="margin-bottom: 10px;">Apariencia</h2>
+                        <p style="font-size: 16px;">Parece una nube púrpura y flotante y robusta, ella habla con una voz con un acento "snoob" (de la alta sociedad), como la mayoría de la gente del Espacio Grumoso</p>
+                    </section>
+                </td>
+                <td style="padding: 20px; border-radius: 20px; background-color: #300328;">
+                    <section id="personalidad">
+                        <h2>Personalidad</h2>
+                        <p>La Princesa Grumosa es un estereotipo de chica malcriada y chismosa. Ella tiende a perder el control fácilmente y se burla de la gente, pero todavía puede ser agradable con las demás personas, y es demasiada sarcástica con las personas.</p>
+                    </section>             
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 20px; border-radius: 20px; background-color: #300328;">
+                    <section id="Curiosidades">
+                        <h2>Curiosidades</h2>
+                        <ul style="font-size: 16px; line-height: 1.5 ;color: #fce6ff;">
+                            <li>Su actor de voz en Estados Unidos es el creador de la serie, Pendleton Ward.</li>
+                            <li>A ella le gusta la ropa moderna y tener labios fabuloso como lo demuestra en "De Mal en Peor".</li>
+                            <li>Temporalmente vivió en el bosque desde "A Cortar el Cabello a una Mujer" hasta el episodio "El Monstruo", sin embargo en "La Princesa Monstruo" vuelve al bosque.</li>
+                            <li>Ella se volvió lisa para el Rey Tierno (Rey Helado) pero la rechazó por ser muy redonda. Lo raro es que luego en el mismo episodio se la ve con grumos de nuevo.</li>
+                            <li>En "El Monstruo" se puede ver que vomita arcoiris.</li>
+                            <li>Su versión de intercambio de género es el Príncipe Grumoso, del cual se diferencia porque lleva bigote y es ligeramente más oscuro.</li>
+                            <li>En "El Sicario", el Rey Helado dice que es una de sus princesas menos favoritas ya que le dice al Señor Sofocante que la puede aniquilar en su lugar.</li>
+                        </ul>
+                    </section>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 20px; border-radius: 20px; background-color: #300328;">
+                    <section id="Aportes">
+                        <h2>Aportes</h2>
+                        <p>Puedes Aportar mas informacion sobre este personaje a través del siguiente formulario:</p>
+                        <form style="font-size: 16px; color: #ffffff;">
+                            <div style="margin-bottom: 10px;">
+                                <label for="nombre" style="display: inline-block; width: 60px;">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" style="width: calc(25% - 50px);background-color: #f7c6ffb4;" required>
+                                <label for="email" style="display: inline-block; width: 60px;">     Email:</label>
+                                <input type="email" id="email" name="email" style="width: calc(25% - 50px); background-color: #f7c6ffb4;" required>
+                            </div>
+                            <div style="margin-bottom: 10px;">
+                                <label for="Aportes" style="display: inline-block; width: 100px;">Aportes:</label><br>
+                                <textarea id="Aportes" name="Aportes" rows="10" cols="50" style="width: calc(75% - 75px);background-color: #f7c6ffb4;" required></textarea>
+                            </div>
+                            <input type="button" value="Enviar" style="padding: 5px 10px; font-size: 16px; background-color: #960096; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                        </form>
+                    </section>
+                </td>
+            </tr>            
+        </table>
+    </main>
+    <footer>
+        <p>© 2024 Practica clase</p>
+    </footer>
+</body>
+</html>

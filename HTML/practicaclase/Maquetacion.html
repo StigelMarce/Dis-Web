@@ -137,5 +137,24 @@
     <footer>
         <p>© 2024 Practica clase</p>
     </footer>
+    <script>
+        document.querySelector('input[type="button"]').addEventListener('click', function() {
+            //alert('Gracias por tu aporte');
+            var nombre = document.querySelector('#nombre').value;
+            var email = document.querySelector('#email').value;
+            var aportes = document.querySelector('#Aportes').value;
+            console.log('Nombre: ' + nombre);
+            console.log('Email: ' + email);
+            console.log('Aportes: ' + aportes);
+            //transforma los datos en json para enviarlos a un servidor y mostrarlos en la consola
+            var datos = {
+                nombre: nombre,
+                email: email,
+                aportes: aportes
+            };
+            console.log(datos);
+            
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 2</title>
+</head>
+<body>
+    <h1>Cartoon Network</h1>
+
+    <div class="gallery">
+        <img src="img1.png" alt="imagen 1">
+        <img src="img2.png" alt="imagen 2">
+        <img src="img3.png" alt="imagen 3">
+        <img src="img4.png" alt="imagen 4">
+        <img src="img5.png" alt="imagen 5">
+        <img src="img6.png" alt="imagen 6">
+    </div>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman';
+            font-size: 40px;
+            color: #24023c;
+            background-color: #e3a3f7;
+            padding: 10px;
+            margin: 0%;
+        }
+        .gallery img {
+            border: 2px solid #ffffff;
+            box-shadow: 10px 10px 10px  rgb(49, 2, 61);
+            margin: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            background-color: #8e6eaf;
+        }
+        img {
+            width: 80%;
+            height: 80%;
+        }
+
+    </style>
+</body>
+</html>
+

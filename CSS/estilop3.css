@@ -1,0 +1,57 @@
+body {
+    background-color: #c6caff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f085f;
+    color: #cbc0ff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4f3d97;
+    color: #d7ddff;
+    padding: 10px;
+    text-align: center;
+}
+
+.experimento1 {
+    font-family: 'Arial';
+    font-size: 30px;
+    font-weight: italic;
+    color: #24023c;
+    text-align: center;
+}
+
+.experimento2 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    color: #095d14;
+    text-align: justify;
+}
+
+.experimento3 {
+    font-family: 'Cambria';
+    font-size: 40px;
+    font-weight: normal;
+    color: #383c02;
+    text-align: right;
+}
+
+.experimento4 {
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    font-weight: bold;
+    color: #9c113f;
+    text-align: left;
+}

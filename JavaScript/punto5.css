@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #edd7ff;
+}
+button {
+    padding: 5px 12px;
+    font-size: 12px;
+    background-color: #5c03af;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}

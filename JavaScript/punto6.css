@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdceff;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #250030;
+    font-style: oblique;
+}
+
+#reloj {
+    font-size: 50px;
+    background: #38004f;
+    color: rgb(255, 0, 234);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

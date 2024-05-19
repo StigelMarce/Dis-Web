@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(242, 217, 255);
+    display: grid;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(98, 12, 137);
+}
+button {
+    height: 100px;
+    background-color: rgb(184, 40, 216);
+    border-color: aliceblue;
+}
+p {
+    text-align: center;
+}

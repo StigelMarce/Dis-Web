@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     equalsButton.addEventListener('click', () => {
         try {
-            display.value = eval(display.value);
+            if (/^[\d+\-*/.() ]+$/.test(display.value)) {
+                display.value = eval(display.value);
+            } else {
+                display.value = 'Error';
+            }
         } catch (error) {
             display.value = 'Error';
         }
